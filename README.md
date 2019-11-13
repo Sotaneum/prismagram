@@ -6,11 +6,15 @@ Instragram clone with Express + Prisma + React and React Native
 
 ## [sendgrid](https://app.sendgrid.com/guide)
 
+## [randomKeygen](https://randomkeygen.com/)
+
+## [randomwordgenerator](https://wordcounter.net/random-word-generator)
+
 ## User Stories
 
 - [x] Create account
 - [x] Request Secret
-- [ ] Confirm Secret (Login)
+- [x] Confirm Secret (Login)  <-- 진행 중 LAST
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
