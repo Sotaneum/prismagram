@@ -4,10 +4,12 @@ Instragram clone with Express + Prisma + React and React Native
 
 ## [prisma](https://app.prisma.io/)
 
+## [sendgrid](https://app.sendgrid.com/guide)
+
 ## User Stories
 
 - [x] Create account
-- [ ] Request Secret
+- [x] Request Secret
 - [ ] Confirm Secret (Login)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
