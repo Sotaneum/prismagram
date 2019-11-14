@@ -8,25 +8,25 @@ Instragram clone with Express + Prisma + React and React Native
 npm install
 npm install -g nodemon prisma
 prisma login -k #YOUR_KEY_HERE
-vi prisma.yml # Create File 'prisma.yml'
+vi ./prisma.yml # Create File 'prisma.yml'
 ```
 
-- prisma.yml
+- *./prisma.yml*
 
     ```yml
     endpoint: YOUR HTTP ENDPOINT
     datamodel: datamodel.prisma
 
     generate:
-    - generator: javascript-client
+      - generator: javascript-client
         output: ./generated/prisma-client/
     ```
 
 ```bash
-vi .env
+vi ./src/.env
 ```
 
-- .env
+- *./src/.env*
 
     ```json
     PORT=YOUR_PORT_NUMBER
@@ -38,6 +38,12 @@ vi .env
 ```bash
 npm prisma
 npm dev
+```
+
+## TOKEN
+
+```graphql
+{"Authorization": "Bearer USER_TOKEN"}
 ```
 
 ## LINK
