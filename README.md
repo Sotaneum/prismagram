@@ -2,20 +2,57 @@
 
 Instragram clone with Express + Prisma + React and React Native
 
-## [prisma](https://app.prisma.io/)
+## Install
 
-## [sendgrid](https://app.sendgrid.com/guide)
+```bash
+npm install
+npm install -g nodemon prisma
+prisma login -k #YOUR_KEY_HERE
+vi prisma.yml # Create File 'prisma.yml'
+```
 
-## [randomKeygen](https://randomkeygen.com/)
+- prisma.yml
 
-## [randomwordgenerator](https://wordcounter.net/random-word-generator)
+    ```yml
+    endpoint: YOUR HTTP ENDPOINT
+    datamodel: datamodel.prisma
+
+    generate:
+    - generator: javascript-client
+        output: ./generated/prisma-client/
+    ```
+
+```bash
+vi .env
+```
+
+- .env
+
+    ```json
+    PORT=YOUR_PORT_NUMBER
+    SENDGRID_USERNAME="USER_NAME"
+    SENGRID_PASSWORD="USER_PASSWORD"
+    JWT_SECRET = "RANDOM_KEYGEN"
+    ```
+
+```bash
+npm prisma
+npm dev
+```
+
+## LINK
+
+- [prisma](https://app.prisma.io/)
+- [sendgrid](https://app.sendgrid.com/guide)
+- [randomKeygen](https://randomkeygen.com/)
+- [randomwordgenerator](https://wordcounter.net/random-word-generator)
 
 ## User Stories
 
 - [x] Create account
 - [x] Request Secret
-- [x] Confirm Secret (Login)  <-- 진행 중 LAST
-- [ ] Like / Unlike a photo
+- [x] Confirm Secret (Login)
+- [x] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
 - [ ] Search by location
