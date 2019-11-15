@@ -40,6 +40,21 @@ npm prisma
 npm dev
 ```
 
+## HOW TO USE FRAGMENT
+
+- Go to Other branch : [*`HERE`*](https://github.com/Sotaneum/prismagram/tree/UseFragments) (*It's not updated anymore.*)
+  - [x] Create account
+  - [x] Request Secret
+  - [x] Confirm Secret (Login)
+  - [x] Like / Unlike a photo
+  - [x] Comment on a photo
+  - [x] Search by user
+  - [x] Search by location
+  - [x] Follow User
+  - [x] Unfollow User
+  - [x] Edit my profile (with Change Option about isAuthenticated)
+  - [x] See user profile
+
 ## TOKEN
 
 ```graphql
