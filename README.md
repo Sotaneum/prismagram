@@ -64,9 +64,9 @@ npm dev
 - [x] Search by location
 - [x] Follow User
 - [x] Unfollow User
+- [x] Edit my profile (with Change Option about isAuthenticated)
 - [ ] See user profile
 - [ ] See the full photo
-- [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
