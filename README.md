@@ -65,7 +65,8 @@ npm dev
 - [x] Follow User
 - [x] Unfollow User
 - [x] Edit my profile (with Change Option about isAuthenticated)
-- [ ] See user profile
+- [x] See user profile
+- [ ] See MY profile
 - [ ] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
