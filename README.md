@@ -86,3 +86,5 @@ npm dev
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
+
+- last : #3.16
