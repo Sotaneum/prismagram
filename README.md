@@ -82,9 +82,7 @@ npm dev
 - [x] Edit my profile (with Change Option about isAuthenticated)
 - [x] See user profile
 - [x] See MY profile
-- [x] See the full post
+- [x] See the full post #3.16
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
-
-- last : #3.16
