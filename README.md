@@ -83,6 +83,10 @@ npm dev
 - [x] See user profile
 - [x] See MY profile
 - [x] See the full post #3.16
-- [ ] Upload a photo
+- [ ] Upload a photo #3.18
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message (Realtime)
